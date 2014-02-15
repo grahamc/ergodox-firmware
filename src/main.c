@@ -152,7 +152,7 @@ int main(void) {
  * ----------------------------------------------------------------------------
  * We keep track of which layer is foremost by placing it on a stack.  Layers
  * may appear in the stack more than once.  The base layer will always be
- * layer-0.  
+ * layer-0.
  *
  * Implemented as a fixed size stack.
  * ------------------------------------------------------------------------- */
@@ -231,6 +231,7 @@ uint8_t main_layers_push(uint8_t layer, uint8_t sticky) {
 		// if one is found
 		if (layers_ids_in_use[id] == false) {
 			layers_ids_in_use[id] = true;
+			_kb_led_4_on();
 			layers_head++;
 			layers[layers_head].layer = layer;
 			layers[layers_head].id = id;
@@ -264,6 +265,10 @@ void main_layers_pop_id(uint8_t id) {
 			// record keeping
 			layers_ids_in_use[id] = false;
 			layers_head--;
+
+			if (layers_head == 0) {
+				_kb_led_4_off();
+			}
 		}
 }
 
