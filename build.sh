@@ -13,5 +13,5 @@ for i in `git clean -ndX | grep -v vagrant | cut -d" " -f3`; do
 done
 
 cd src
-make
+make LAYOUT="graham"
 
