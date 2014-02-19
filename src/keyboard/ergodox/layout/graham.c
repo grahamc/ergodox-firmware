@@ -26,23 +26,23 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
 // unused
 0,
 // left hand
- _bracketL,            _1,         _2,         _3,      _4,    _5, _esc,
-      _tab,     _dv_quote,  _dv_comma, _dv_period,   _dv_P, _dv_Y,    1,
-      _tab,         _dv_A,      _dv_O,      _dv_E,   _dv_U, _dv_I,
-   _shiftL, _dv_semicolon,      _dv_Q,      _dv_J,   _dv_K, _dv_X,    1,
-     _guiL,        _grave, _backslash,    _arrowL, _arrowR,
-                                                 _guiL, _altL,
-                                              0,      0, _home,
-                                            _bs,   _del,  _end,
+ _dv_bracketL,            _1,            _2,         _3,      _4,    _5, _esc,
+         _tab,     _dv_quote,     _dv_comma, _dv_period,   _dv_P, _dv_Y,    1,
+         _tab,         _dv_A,         _dv_O,      _dv_E,   _dv_U, _dv_I,
+      _shiftL, _dv_semicolon,         _dv_Q,      _dv_J,   _dv_K, _dv_X,    1,
+        _guiL,     _dv_grave, _dv_backslash,    _arrowL, _arrowR,
+                                                  _guiL,   _altL,
+                                              0,      0,   _home,
+                                            _bs,   _del,    _end,
 // right hand
-        3,    _6,      _7,      _8,      _9,         _0,     _bracketR,
-   _slash, _dv_F,   _dv_G,   _dv_C,   _dv_R,      _dv_L,        _equal,
-           _dv_D,   _dv_H,   _dv_T,   _dv_N,      _dv_S,         _dash,
+        3,    _6,      _7,      _8,      _9,         _0,  _dv_bracketR,
+_dv_slash, _dv_F,   _dv_G,   _dv_C,   _dv_R,      _dv_L,     _dv_equal,
+           _dv_D,   _dv_H,   _dv_T,   _dv_N,      _dv_S,      _dv_dash,
         1, _dv_B,   _dv_M,   _dv_W,   _dv_V,      _dv_Z,       _shiftR,
-               _arrowL, _arrowD, _arrowU,    _arrowR,         _guiR,
- _ctrlR, _guiR,
-_pageU,      0,      0,
-_pageD, _enter, _space ),
+                  _arrowL, _arrowD, _arrowU,    _arrowR,         _guiR,
+ _ctrlR,  _guiR,
+ _pageU,      0,      0,
+ _pageD, _enter, _space ),
 
 
 	KB_MATRIX_LAYER(  // layout: layer 1: function and symbol keys

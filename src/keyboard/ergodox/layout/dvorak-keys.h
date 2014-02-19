@@ -28,8 +28,18 @@
 #define _dv_Z                  KEY_Slash_Question
 
 // symbols
+
+#define _dv_backslash          KEY_Backslash_Pipe
+#define _dv_bracketL           KEY_Dash_Underscore
+#define _dv_bracketR           KEY_Equal_Plus
 #define _dv_comma              KEY_w_W
+#define _dv_dash               KEY_SingleQuote_DoubleQuote
+#define _dv_equal              KEY_RightBracket_RightBrace
+#define _dv_grave              KEY_GraveAccent_Tilde
 #define _dv_period             KEY_e_E
 #define _dv_quote              KEY_q_Q
 #define _dv_semicolon          KEY_z_Z
+#define _dv_slash              KEY_LeftBracket_LeftBrace
+
+
 
