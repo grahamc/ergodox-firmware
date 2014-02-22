@@ -1,11 +1,11 @@
 # [Firmware][ergodox-firmware] for the [ErgoDox keyboard][]
 
-The official website is [ergodox.org] (http://www.ergodox.org).  
+The official website is [ergodox.org] (http://www.ergodox.org).
 Also see the [geekhack]
 (http://geekhack.org/showthread.php?22780-Interest-Check-Custom-split-ergo-keyboard)
 and [deskthority]
 (http://deskthority.net/workshop-f7/split-ergonomic-keyboard-project-t1753.html)
-discussion threads.  
+discussion threads.
 Kits are periodically for sale [on Massdrop] (https://www.massdrop.com/buy/ergodox),
 who also hosts [build instructions] (https://www.massdrop.com/ext/ergodox/assembly.php)
 and a [web UI] (https://www.massdrop.com/ext/ergodox)
@@ -34,7 +34,6 @@ changed since this document was last properly updated:
 * Oleg Kostyuk (cub-uanic) [ported the TMK firmware]
   (https://github.com/cub-uanic/tmk_keyboard)
   (written by "hasu") to the ErgoDox!
-
 
 
 ### Table of Contents
@@ -327,7 +326,7 @@ your goal.
   code should be in the following files (using the ergodox code as an example):
     * [controller.h] (src/keyboard/ergodox/controller.h)
     * [layout.h] (src/keyboard/ergodox/layout.h) (which in the ergodox code
-      only exists to include 
+      only exists to include
       [layout/default--led-control.h]
       (src/keyboard/ergodox/layout/default--led-control.h) and
       [layout/default--matrix-control.h]
@@ -365,7 +364,7 @@ your goal.
 
 -------------------------------------------------------------------------------
 
-Copyright &copy; 2012 Ben Blazak <benblazak.dev@gmail.com>  
-Released under The MIT License (MIT) (see "license.md")  
+Copyright &copy; 2012 Ben Blazak <benblazak.dev@gmail.com>
+Released under The MIT License (MIT) (see "license.md")
 Project located at <https://github.com/benblazak/ergodox-firmware>
 
