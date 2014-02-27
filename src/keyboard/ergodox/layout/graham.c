@@ -53,7 +53,7 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
   0,  _bracketL,  _bracketR, _bracketL, _bracketR,         0,    1,
   0, _semicolon,     _slash,     _dash,     _0_kp,_semicolon,
   0,      _6_kp,      _7_kp,     _8_kp,     _9_kp,    _equal,    2,
-  0,          0,          0,         0,         0,
+  0,          0,          0,     _prev,     _next,
                                                              0,  0,
                                                          0,  0,  0,
                                                          0,  0,  0,
@@ -65,7 +65,7 @@ _F12,       _F6,    _F7,       _F8,       _F9,         _F10,   _power,
                       0,         0,         0,            0,        0,
   0,  0,
   0,  0,  0,
-  0,  0,  0 ),
+  0,  0,  _playpause),
 
 
 	KB_MATRIX_LAYER(  // layout: layer 2: keyboard functions
@@ -124,6 +124,8 @@ _F12,       _F6,    _F7,       _F8,       _F9,         _F10,   _power,
 #define  kprrel  &kbfun_press_release
 #define  ktog    &kbfun_toggle
 #define  ktrans  &kbfun_transparent
+// media keys
+#define  mprrel   &kbfun_mediakey_press_release
 // --- layer push/pop functions
 #define  lpush1   &kbfun_layer_push_1
 #define  lpush2   &kbfun_layer_push_2
@@ -192,7 +194,7 @@ NULL,
  dbtldr,sshprre,sshprre, kprrel, kprrel,   NULL,  lpop1,
  ktrans, kprrel, kprrel, kprrel, kprrel,sshprre,
  ktrans, kprrel, kprrel, kprrel, kprrel,sshprre, lpush2,
- ktrans, ktrans, ktrans, ktrans, ktrans,
+ ktrans, ktrans, ktrans, mprrel, mprrel,
                                                  ktrans, ktrans,
                                          ktrans, ktrans, ktrans,
                                          ktrans, ktrans, ktrans,
@@ -204,7 +206,7 @@ NULL,
                         ktrans, ktrans, ktrans, ktrans, ktrans,
  ktrans, ktrans,
  ktrans, ktrans, ktrans,
- ktrans, ktrans, ktrans ),
+ ktrans, ktrans, mprrel),
 
 
 	KB_MATRIX_LAYER(  // press: layer 2: keyboard functions

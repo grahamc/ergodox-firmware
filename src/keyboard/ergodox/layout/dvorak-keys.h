@@ -41,5 +41,9 @@
 #define _dv_semicolon          KEY_z_Z
 #define _dv_slash              KEY_LeftBracket_LeftBrace
 
+// media
 
 
+#define _prev                  MEDIAKEY_PREV_TRACK
+#define _next                  MEDIAKEY_NEXT_TRACK
+#define _playpause             MEDIAKEY_PLAY_PAUSE
