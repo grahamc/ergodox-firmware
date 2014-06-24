@@ -28,7 +28,7 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
 // left hand
  _dv_bracketL,            _1,            _2,         _3,      _4,    _5, _esc,
          _tab,     _dv_quote,     _dv_comma, _dv_period,   _dv_P, _dv_Y,    1,
-         _tab,         _dv_A,         _dv_O,      _dv_E,   _dv_U, _dv_I,
+         _esc,         _dv_A,         _dv_O,      _dv_E,   _dv_U, _dv_I,
       _shiftL, _dv_semicolon,         _dv_Q,      _dv_J,   _dv_K, _dv_X,    1,
        _ctrlL,     _dv_grave, _dv_backslash,    _arrowL, _arrowR,
                                                   _guiL,   _altL,
