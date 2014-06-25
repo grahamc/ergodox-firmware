@@ -134,6 +134,7 @@ _F12,       _F6,    _F7,       _F8,       _F9,         _F10,   _power,
 #define  lpush8   &kbfun_layer_push_8
 #define  lpush9   &kbfun_layer_push_9
 #define  lpush10  &kbfun_layer_push_10
+#define  lpopall  &kbfun_layer_pop_all
 #define  lpop1    &kbfun_layer_pop_1
 #define  lpop2    &kbfun_layer_pop_2
 #define  lpop3    &kbfun_layer_pop_3
